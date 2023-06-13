@@ -5,13 +5,13 @@ var slider3;
 
 var vid;
 
-/*
+
 function preload() {
   vid = createVideo(['https://video.wixstatic.com/video/d3d3a7_13e9e91a05b240d7ae3f966f86ccd1de/1080p/mp4/file.mp4']);
   //vid = createVideo(['https://i.imgur.com/0AUMwf4.mp4']); 
   vid.hide();
   }
-  */
+
 
 function setup() {
   let canvas = createCanvas(1080, 1920, WEBGL);
