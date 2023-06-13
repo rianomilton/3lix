@@ -1,2 +1,3 @@
 # 3lix
-3lix test - Laura Acosta
+3lix test
+Laura Acosta
