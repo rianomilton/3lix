@@ -27,7 +27,7 @@ function setup() {
   vid.loop();
   vid.speed(1); //max3
   vid.id('p5video');
-  vid.hide();
+  //vid.hide();
   
   slider1 = createSlider(0, 0.2, 0, 0.01);
   slider1.id('effect-slider1');
