@@ -5,12 +5,15 @@ var slider3;
 
 var vid;
 
-
+*/
 function preload() {
-  vid = createVideo(['https://video.wixstatic.com/video/d3d3a7_13e9e91a05b240d7ae3f966f86ccd1de/1080p/mp4/file.mp4']);
+  //vid = createVideo(['https://video.wixstatic.com/video/d3d3a7_13e9e91a05b240d7ae3f966f86ccd1de/1080p/mp4/file.mp4']);
+  vid = createVideo("Laura Test 1 A003_11152354_C001.MOV");
+  
   //vid = createVideo(['https://i.imgur.com/0AUMwf4.mp4']); 
   vid.hide();
   }
+/*
 
 
 function setup() {
@@ -21,9 +24,11 @@ function setup() {
   //registerPreloadMethod(createVideo);
 
   //vid = createVideo('https://www.w3schools.com/html/mov_bbb.mp4');
-  //vid = createVideo("3lix_1.mp4");
+  
+  
   //https://www.w3schools.com/html/mov_bbb.mp4
-  vid = createVideo(['https://video.wixstatic.com/video/d3d3a7_13e9e91a05b240d7ae3f966f86ccd1de/1080p/mp4/file.mp4']);
+  //vid = createVideo(['https://video.wixstatic.com/video/d3d3a7_13e9e91a05b240d7ae3f966f86ccd1de/1080p/mp4/file.mp4']);
+  vid = createVideo("Laura Test 1 A003_11152354_C001.MOV");
   vid.loop();
   vid.speed(1); //max3
   vid.id('p5video');
