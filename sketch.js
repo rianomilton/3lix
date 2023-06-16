@@ -28,7 +28,7 @@ function setup() {
   
   //https://www.w3schools.com/html/mov_bbb.mp4
   //vid = createVideo(['https://video.wixstatic.com/video/d3d3a7_13e9e91a05b240d7ae3f966f86ccd1de/1080p/mp4/file.mp4']);
-  vid = createVideo("https://github.com/rianomilton/3lix/blob/main/3lixlow.mov");
+  vid = createVideo("3lixlow.mov");
   vid.loop();
   vid.speed(1); //max3
   vid.id('p5video');
