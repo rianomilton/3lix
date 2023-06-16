@@ -54,11 +54,10 @@ function setup() {
   // uncomment the following line to see the webcam without effects
   // target.source = src;
   
-  
+  seriously.go();
 }
 
 function draw() {
-  seriously.go();
   //poner la letra PNG al abrir la pagina y ocultar / solo la primera vez
   // conectar efecto 1 y 3 con la velocidad del viento
 }
