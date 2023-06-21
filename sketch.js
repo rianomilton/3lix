@@ -5,30 +5,24 @@ var slider3;
 
 var vid;
 
-/*
 function preload() {
-  //vid = createVideo(['https://video.wixstatic.com/video/d3d3a7_13e9e91a05b240d7ae3f966f86ccd1de/1080p/mp4/file.mp4']);
-  vid = createVideo("Laura Test 1 A003_11152354_C001.MOV");
-  
+  vid = createVideo(['https://github.com/rianomilton/3lix/blob/main/3LIX_1.mp4']);
+//createVideo(['https://video.wixstatic.com/video/d3d3a7_13e9e91a05b240d7ae3f966f86ccd1de/1080p/mp4/file.mp4']);
   //vid = createVideo(['https://i.imgur.com/0AUMwf4.mp4']); 
   vid.hide();
   }
-*/
-
 
 function setup() {
   let canvas = createCanvas(1080, 1920, WEBGL);
   canvas.id('p5canvas');  
   
-  
-  //registerPreloadMethod(createVideo);
+  registerPreloadMethod(createVideo);
+  vid.crossOrigin = "anonymous";
 
   //vid = createVideo('https://www.w3schools.com/html/mov_bbb.mp4');
-  
-  
+  //vid = createVideo("3lix_1.mp4");
   //https://www.w3schools.com/html/mov_bbb.mp4
   //vid = createVideo(['https://video.wixstatic.com/video/d3d3a7_13e9e91a05b240d7ae3f966f86ccd1de/1080p/mp4/file.mp4']);
-  vid = createVideo("3lixlow.mov");
   vid.loop();
   vid.speed(1); //max3
   vid.id('p5video');
@@ -53,11 +47,14 @@ function setup() {
   
   // uncomment the following line to see the webcam without effects
   // target.source = src;
-  
   seriously.go();
+  
 }
 
 function draw() {
+  //let img = vid.get();
+  //image(img, 0, 0); // redraws the video frame by frame in p5
+  //image(vid2,0,0); 
   //poner la letra PNG al abrir la pagina y ocultar / solo la primera vez
   // conectar efecto 1 y 3 con la velocidad del viento
 }
